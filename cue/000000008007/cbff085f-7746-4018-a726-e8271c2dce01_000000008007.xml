@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openimmo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <uebertragung art="ONLINE" umfang="TEIL" modus="NEW" version="1.2.7" sendersoftware="TEAM3+" senderversion="11.0.5" techn_email="" regi_id="000000008007" timestamp="2020-05-29T20:29:32+02:00" />
+  <anbieter>
+    <firma>Da Vinci Prime GmbH</firma>
+    <immobilie>
+	<user_defined_anyfield>
+	    <!-- Beispiele -->
+        <plaintext fieldname="objektart" fieldvalue="Etagenwohnung" />
+        <plaintext fieldname="auslandsregion" fieldvalue="Canillo" />
+        <plaintext fieldname="headline2" fieldvalue=" Einfamilienhaus in Dortmund" />
+        <flag fieldname="balkon" fieldvalue="true" />
+        <flag fieldname="terrasse" fieldvalue="false" />
+      </user_defined_anyfield>
+      <objektkategorie>
+        <nutzungsart WOHNEN="true" GEWERBE="false" />
+        <vermarktungsart KAUF="true" MIETE_PACHT="false" ERBPACHT="false" LEASING="false" />
+        <objektart>
+          <wohnung wohnungtyp="TERRASSEN" />
+        </objektart>
+      </objektkategorie>
+      <geo>
+        <plz>1130</plz>
+        <ort>Wien</ort>
+        <strasse>Schweizertalstraße</strasse>
+        <hausnummer>39</hausnummer>
+        <land iso_land="AUT" />
+      </geo>
+      <kontaktperson>
+        <email_direkt>m.fritsch@davincigroup.eu</email_direkt>
+        <name>Manon Fritsch</name>
+        <vorname />
+        <anrede_brief>Manon Fritsch</anrede_brief>
+        <strasse>Schönbrunner Schloßstraße</strasse>
+        <hausnummer>37a</hausnummer>
+        <plz>AT-1120</plz>
+        <ort>Wien</ort>
+        <land iso_land="AUT" />
+        <email_sonstige emailart="EM_DIREKT">m.fritsch@davincigroup.eu</email_sonstige>
+        <email_feedback>m.fritsch@davincigroup.eu</email_feedback>
+        <tel_privat>+4319621010</tel_privat>
+        <adressfreigabe>true</adressfreigabe>
+      </kontaktperson>
+      <preise>
+        <kaufpreis auf_anfrage="false">660941.00</kaufpreis>
+        <kaufpreisbrutto>660941.00</kaufpreisbrutto>
+      </preise>
+      <flaechen>
+        <wohnflaeche>70.650</wohnflaeche>
+        <grundstuecksflaeche>70.65</grundstuecksflaeche>
+        <anzahl_zimmer>3</anzahl_zimmer>
+      </flaechen>
+      <ausstattung>
+        <heizungsart FUSSBODEN="true" />
+        <fahrstuhl PERSONEN="true" />
+        <kabel_sat_tv>true</kabel_sat_tv>
+        <barrierefrei>true</barrierefrei>
+        <abstellraum>false</abstellraum>
+      </ausstattung>
+      <zustand_angaben>
+        <energiepass>
+          <epart>BEDARF</epart>
+          <ausstelldatum>2016-11-25</ausstelldatum>
+          <hwbwert>33,98</hwbwert>
+          <hwbklasse>A</hwbklasse>
+          <fgeewert>0,84</fgeewert>
+        </energiepass>
+      </zustand_angaben>
+      <freitexte>
+        <objekttitel>Erstbezug - Provisionsfrei</objekttitel>
+        <lage />
+        <objektbeschreibung>Die Situierung des Gebäudes am Rande des ausgedehnten Lainzer Waldes. Die Konzeption der Wohnungen mit intelligent geplanten Grundrissen. Und natürlich die Ausstattung, bei der in punkto Qualität keine Kompromisse gemacht wurden. 
+Einfach gesagt: Diese Wohnung erfüllt alle Erwartungen an exklusives Wohnen im Grünen im schönsten Teil Hietzings.
+
+www.davincigroup.eu/gartenresidenz1133/
+
+ 
+Infrastruktur/ Einkaufsmöglichkeiten
+
+Die Lage könnte kaum besser sein:
+Bäcker, Supermarkt, Putzerei, Park, Schule – Ober St. Veit hat sich bis heute den familiären, dörflichen Charakter erhalten. Schön, dass es solche Orte noch gibt!
+
+
+Für weitere Informationen und Wohnungsbesichtigungen steht Ihnen Frau Fritsch gerne via Mail oder telefonisch unter +43 699 19871906 zur Verfügung.</objektbeschreibung>
+      </freitexte>
+      <anhaenge>
+        <anhang location="INTERN" gruppe="BILD">
+          <anhangtitel>ap_3_kl202005292029285208</anhangtitel>
+          <format>PNG</format>
+          <check ctype="DATETIME">2020-04-28T14:38:24+02:00</check>
+          <daten>
+            <pfad>ap_3_kl202005292029285208.png</pfad>
+          </daten>
+        </anhang>
+	<anhang location="INTERN" gruppe="BILD">
+          <anhangtitel>ap_3_kl202005292029285208</anhangtitel>
+          <format>PNG</format>
+          <check ctype="DATETIME">2020-04-28T14:38:24+02:00</check>
+          <daten>
+            <pfad>ap_3_kl202005292029285208 - Kopie.png</pfad>
+          </daten>
+        </anhang>
+      </anhaenge>
+      <verwaltung_objekt>
+        <verfuegbar_ab>09.2020</verfuegbar_ab>
+      </verwaltung_objekt>
+      <verwaltung_techn>
+        <objektnr_intern>000000008007</objektnr_intern>
+        <objektnr_extern>000000008007</objektnr_extern>
+        <aktion aktionart="CHANGE" />
+        <openimmo_obid>000000008007_fafea129-ac9d-4375-935a-e605f59c62f8</openimmo_obid>
+        <stand_vom>2020-04-11</stand_vom>
+      </verwaltung_techn>
+    </immobilie>
+    <impressum_strukt>
+      <firmenname>Da Vinci Prime GmbH</firmenname>
+      <firmenanschrift>Schönbrunner Schloßstraße 37a, AT-1120 Wien</firmenanschrift>
+      <vertretungsberechtigter />
+      <handelsregister />
+      <handelsregister_nr />
+      <umsst-id />
+      <steuernummer />
+    </impressum_strukt>
+  </anbieter>
+</openimmo>

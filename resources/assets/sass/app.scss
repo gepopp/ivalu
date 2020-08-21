@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+
+*:focus {
+  outline: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+@keyframes float {
+  0% {
+    transform: opacity(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.floating {
+
+  animation: float 6s ease-in-out infinite;
+
+  &:hover {
+    animation: none;
+    box-shadow: none;
+  }
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
